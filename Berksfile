@@ -2,9 +2,9 @@ Encoding.default_external = "UTF-8"
 source 'https://supermarket.chef.io'
 metadata
 
-cookbook 'conda', github: "logicalclocks/conda-chef", branch: "master"
-cookbook 'hops', github: "logicalclocks/hops-hadoop-chef", branch: "master"
-cookbook 'ndb', github: "logicalclocks/ndb-chef", branch: "master"
-cookbook 'kagent', github: "logicalclocks/kagent-chef", branch: "master"
-cookbook 'tensorflow', github: "logicalclocks/tensorflow-chef", branch: "master"
-cookbook 'java', github: "logicalclocks/java", branch: "v7.0.0-1"
+cookbook 'conda', github: "hopsworksjenkins/conda-chef", branch: "1652-ee"
+cookbook 'hops', github: "hopsworksjenkins/hops-hadoop-chef", branch: "1652-ee"
+cookbook 'ndb', github: "hopsworksjenkins/ndb-chef", branch: "1652-ee"
+cookbook 'kagent', github: "hopsworksjenkins/kagent-chef", branch: "1652-ee"
+cookbook 'tensorflow', github: "hopsworksjenkins/tensorflow-chef", branch: "1652-ee"
+cookbook 'java', github: "hopsworksjenkins/java", branch: "v7.0.0-1"
